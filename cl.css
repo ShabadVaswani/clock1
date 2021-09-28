@@ -3,7 +3,7 @@ body,html{
     margin: 0;
 }
 .bg{
-    background-color: black;
+    background-image: url("wp.jpg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;

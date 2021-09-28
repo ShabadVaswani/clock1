@@ -1,0 +1,64 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-color: black;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont{
+    position: relative;
+    height: 100%;
+
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: 6px solid white;
+}
+
+
+#hour{
+    position: absolute;
+    top:25%;
+    left:50%;
+    width: 3px;
+    height:25%;
+    background-color: white;
+    transform-origin: bottom;
+    transform : rotate(90deg);
+}
+#minute{
+    position: absolute;
+    top:10%;
+    left:50%;
+    width: 3px;
+    height:40%;
+    background-color: white;
+    transform-origin: bottom;
+    transform : rotate(90deg);
+}
+#second{
+    position: absolute;
+    top:10%;
+    left:50%;
+    width: 3px;
+    height:40%;
+    background-color: rgb(255, 208, 0);
+    transform-origin: bottom;
+    transform : rotate(90deg);
+}
+@media only screen and (max-width: 500px) {
+    .circle{
+        width: 220px;
+        height: 220px;
+    }
+  }
